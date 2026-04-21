@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-const baseURL = process.env.VITE_LOCAL_API_URL;
+const baseURL = "http://localhost:3001";
 
 type Profissao = {
   id: number;
