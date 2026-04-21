@@ -7,13 +7,24 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mock": "json-server --watch db.json --port 3001",
+    "live": "npx json-server --watch db.json --port 3001 --host 0.0.0.0"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@tailwindcss/vite": "^4.2.2",
     "@types/node": "^25.6.0",
+    "html2canvas": "^1.4.1",
+    "json-server": "^1.0.0-beta.15",
+    "jspdf": "^4.2.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-hook-form": "^7.72.1"
+    "react-hook-form": "^7.72.1",
+    "react-number-format": "^5.4.5",
+    "tailwindcss": "^4.2.2",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

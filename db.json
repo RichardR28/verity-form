@@ -1,0 +1,28 @@
+{
+  "profissoes": [
+    {
+      "id": 1,
+      "value": "Programador"
+    },
+    {
+      "id": 2,
+      "value": "Analista de Sistemas"
+    },
+    {
+      "id": 3,
+      "value": "Designer"
+    },
+    {
+      "id": 4,
+      "value": "Gerente de Projetos"
+    },
+    {
+      "id": 5,
+      "value": "Engenheiro de Software"
+    },
+    {
+      "id": 6,
+      "value": "Arquiteto de Soluções"
+    }
+  ]
+}

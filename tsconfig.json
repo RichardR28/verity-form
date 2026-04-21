@@ -1,7 +1,6 @@
 {
   "files": [],
   "compilerOptions": {
-    "baseUrl": ".",
     "types": [
       "node"
     ],
