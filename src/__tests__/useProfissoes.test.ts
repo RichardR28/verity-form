@@ -1,4 +1,3 @@
-// src/__tests__/useProfissoes.test.ts
 import { renderHook, waitFor } from "@testing-library/react"
 import { useProfissoes } from "@/hooks/useProfissoes"
 
