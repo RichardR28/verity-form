@@ -50,11 +50,10 @@ export function useExportPdf() {
       pdf.text(`${label}: `, margin, y);
 
       // Calcula onde o label termina
-      const labelWidth = pdf.getTextWidth(`${label}: `); // 👈 getTextWidth retorna mm direto
-
+      const labelWidth = pdf.getTextWidth(`${label}: `);
       // Valor em normal logo após o label
       pdf.setFont("helvetica", "normal");
-      pdf.text(value, margin + labelWidth, y); // 👈 valor posicionado após o label
+      pdf.text(value, margin + labelWidth, y);
 
       y += 7;
     };

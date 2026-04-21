@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-const baseURL = import.meta.env.VITE_LOCAL_API_URL;
+const baseURL = process.env.VITE_LOCAL_API_URL;
 
 type Profissao = {
   id: number;

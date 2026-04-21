@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.app.json",
+  "files": [
+    "declarations.d.ts"
+  ],
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "verbatimModuleSyntax": false // 👈
+  }
+}

@@ -1,14 +1,17 @@
 {
   "files": [],
   "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "types": [
-      "node"
+      "node",
+      "jest"
     ],
     "paths": {
       "@/*": [
         "./src/*"
-      ],
-    },
+      ]
+    }
   },
   "references": [
     {
