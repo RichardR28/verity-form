@@ -17,6 +17,7 @@ const CustomInput = forwardRef<HTMLInputElement, CustomInputProps>(
         <input
           {...props}
           ref={ref}
+          id={label}
           type={type}
           data-filled={String(!!value && value !== "")}
           className="w-full rounded-[4px] !text-[14px] pl-1 pr-1 h-8 border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-200"

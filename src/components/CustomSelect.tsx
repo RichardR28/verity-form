@@ -25,6 +25,7 @@ const CustomSelect = forwardRef<HTMLSelectElement, CustomSelectProps>(
         <select
           {...props}
           ref={ref}
+          id={label}
           data-filled="false"
           defaultValue=""
           className="w-full rounded-[4px] !text-[14px] pl-1 pr-1 h-8 border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-200 bg-white"
